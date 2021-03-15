@@ -78,10 +78,10 @@ name are supposed to pass, the one with fail should break.
 % cd dinghy/test-ws
 [...]
 # these ones should pass
-% cargo dinghy -d android test pass
+% cargo dinghy -d iphone test pass
 [...]
 # this one shall not pass
-% cargo dinghy -d android test fail
+% cargo dinghy -d iphone test fail
 [...]
 ```
 
